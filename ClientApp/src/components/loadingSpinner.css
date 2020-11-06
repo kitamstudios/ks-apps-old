@@ -1,0 +1,15 @@
+.loadingSpinner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(359deg);
+  }
+}
