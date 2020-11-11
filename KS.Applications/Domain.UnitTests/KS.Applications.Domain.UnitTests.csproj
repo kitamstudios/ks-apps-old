@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\KS.Applications.Tests.Common.targets" />
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\KS.Applications.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

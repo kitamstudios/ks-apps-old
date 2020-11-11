@@ -3,6 +3,7 @@
 # Apps - Kitam Studio Applications
 
 > Implementation of a few apps AND demonstrating modern architectural patterns
+> Ideas stolen from: [Jason's Clean Architecture](https://github.com/jasontaylordev/CleanArchitecture)
 
 ## Purpose
 

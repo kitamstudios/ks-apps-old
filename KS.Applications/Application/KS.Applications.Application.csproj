@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\KS.Applications.Common.targets" />
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="FluentValidation" Version="9.2.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="9.2.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\KS.Applications.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
